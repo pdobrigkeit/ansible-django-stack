@@ -2,7 +2,7 @@
 env=development
 
 [webservers]
-dev.example.com nginx_use_letsencrypt=true
+static.154.133.203.116.clients.your-server.de nginx_use_letsencrypt=true
 
 [dbservers]
-dev.example.com
+static.154.133.203.116.clients.your-server.de

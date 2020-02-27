@@ -43,3 +43,8 @@
     chdir: "{{ project_path }}"
   tags: git
   changed_when: false
+
+- name: Make executable
+  file:
+    path: "{{ project_path }}/questionnaire/manage.py"
+    mode: 0777

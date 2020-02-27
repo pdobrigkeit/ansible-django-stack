@@ -24,7 +24,10 @@
       - htop
       - git
       - "{{ base_python_package }}-pip"
-      - "i{{ base_python_package }}"
+      - "{{ base_python_package }}-setuptools"
+      - "{{ base_python_package }}-wheel"
+      - "{{ base_python_package }}-dev"
+      - "{{ base_python_package }}"
       - supervisor
   tags:
     - packages
