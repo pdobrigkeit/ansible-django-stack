@@ -8,7 +8,7 @@ git_branch: develop
 # Database settings.
 db_user: root
 db_name: existPsyB
-db_password: P5Y!eX157
+db_password: C4m45troC4m45tro
 
 
 # Gunicorn settings. For the number of workers, a good rule to follow is
